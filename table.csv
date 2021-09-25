@@ -104,6 +104,7 @@ p2p-circuit,                    multiaddr,      0x0122,         permanent,
 dag-json,                       ipld,           0x0129,         permanent, MerkleDAG json
 udt,                            multiaddr,      0x012d,         draft,
 utp,                            multiaddr,      0x012e,         draft,
+dag-cbor-unrestricted,          ipld,           0x0171,         draft,     MerkleDAG cbor without DAG-CBOR restrictions
 unix,                           multiaddr,      0x0190,         permanent,
 thread,                         multiaddr,      0x0196,         draft,     Textile Thread
 p2p,                            multiaddr,      0x01a5,         permanent, libp2p
